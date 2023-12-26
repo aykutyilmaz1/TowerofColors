@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2478e92ad70464ba1a73cbfd5e64a7f, type: 3}
+  m_Name: MissionsData
+  m_EditorClassIdentifier: 
+  missions:
+  - editorText: PassComboCount - 5 - Easy
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Make a combo over 5 points
+    missionTargetValue: 5
+    missionType: 2
+    missionDifficulty: 0
+    canHavePartialProgress: 0
+    reward:
+      rewardType: 0
+      rewardSprite: {fileID: 21300000, guid: 41d9efc14678145fcafd325adb045e5a, type: 3}
+      amount: 75
+  - editorText: PassComboCount - 10 - Medium
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Make a combo over 10 points
+    missionTargetValue: 10
+    missionType: 2
+    missionDifficulty: 1
+    canHavePartialProgress: 0
+    reward:
+      rewardType: 1
+      rewardSprite: {fileID: 21300000, guid: 4183b452bd9604f93b12e11d7c93a831, type: 3}
+      amount: 75
+  - editorText: PassComboCount - 20 - Hard
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Make a combo over 20 points
+    missionTargetValue: 20
+    missionType: 2
+    missionDifficulty: 2
+    canHavePartialProgress: 0
+    reward:
+      rewardType: 2
+      rewardSprite: {fileID: 21300000, guid: 7d1bfe24e4b2642179c3ac7cda1efe61, type: 3}
+      amount: 50
+  - editorText: ExplosiveHit - 1 - Easy
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Hit 1 explosive barrel
+    missionTargetValue: 1
+    missionType: 0
+    missionDifficulty: 0
+    canHavePartialProgress: 1
+    reward:
+      rewardType: 0
+      rewardSprite: {fileID: 21300000, guid: 41d9efc14678145fcafd325adb045e5a, type: 3}
+      amount: 30
+  - editorText: ExplosiveHit - 2 - Medium
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Hit 2 explosive barrels
+    missionTargetValue: 2
+    missionType: 0
+    missionDifficulty: 1
+    canHavePartialProgress: 1
+    reward:
+      rewardType: 1
+      rewardSprite: {fileID: 21300000, guid: 4183b452bd9604f93b12e11d7c93a831, type: 3}
+      amount: 35
+  - editorText: ExplosiveHit - 3 - Hard
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Hit 3 explosive barrels
+    missionTargetValue: 3
+    missionType: 0
+    missionDifficulty: 2
+    canHavePartialProgress: 1
+    reward:
+      rewardType: 2
+      rewardSprite: {fileID: 21300000, guid: 7d1bfe24e4b2642179c3ac7cda1efe61, type: 3}
+      amount: 10
+  - editorText: DestroyBarrels - 10 - Easy
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Destroy 10 barrels
+    missionTargetValue: 10
+    missionType: 3
+    missionDifficulty: 0
+    canHavePartialProgress: 1
+    reward:
+      rewardType: 0
+      rewardSprite: {fileID: 21300000, guid: 41d9efc14678145fcafd325adb045e5a, type: 3}
+      amount: 100
+  - editorText: DestroyBarrels - 15 - Medium
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Destory 15 barrels
+    missionTargetValue: 15
+    missionType: 3
+    missionDifficulty: 1
+    canHavePartialProgress: 1
+    reward:
+      rewardType: 1
+      rewardSprite: {fileID: 21300000, guid: 4183b452bd9604f93b12e11d7c93a831, type: 3}
+      amount: 100
+  - editorText: DestroyBarrels - 50 - Hard
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Destroy 50 barrels
+    missionTargetValue: 50
+    missionType: 3
+    missionDifficulty: 2
+    canHavePartialProgress: 1
+    reward:
+      rewardType: 0
+      rewardSprite: {fileID: 21300000, guid: 7d1bfe24e4b2642179c3ac7cda1efe61, type: 3}
+      amount: 100
+  - editorText: FinishOverBallCount - 1 - Easy
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Spare at least 1 balls
+    missionTargetValue: 1
+    missionType: 1
+    missionDifficulty: 0
+    canHavePartialProgress: 0
+    reward:
+      rewardType: 1
+      rewardSprite: {fileID: 21300000, guid: 41d9efc14678145fcafd325adb045e5a, type: 3}
+      amount: 10
+  - editorText: FinishOverBallCount - 2 - Medium
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Spare at least 2 balls
+    missionTargetValue: 2
+    missionType: 1
+    missionDifficulty: 1
+    canHavePartialProgress: 0
+    reward:
+      rewardType: 1
+      rewardSprite: {fileID: 21300000, guid: 4183b452bd9604f93b12e11d7c93a831, type: 3}
+      amount: 20
+  - editorText: FinishOverBallCount - 3 - Hard
+    missionCurrentValue: 0
+    isRewardCollected: 0
+    missionDescription: Spare at least 3 balls
+    missionTargetValue: 3
+    missionType: 1
+    missionDifficulty: 2
+    canHavePartialProgress: 0
+    reward:
+      rewardType: 2
+      rewardSprite: {fileID: 21300000, guid: 7d1bfe24e4b2642179c3ac7cda1efe61, type: 3}
+      amount: 30
